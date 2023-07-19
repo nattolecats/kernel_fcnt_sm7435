@@ -13,4 +13,4 @@ ifeq ($(TUNE_MMAP_READAROUND), true)
 	KBUILD_OPTIONS += KCFLAGS=-DTUNE_MMAP_READAROUND
 endif
 
-include $(DLKM_DIR)/AndroidKernelModule.mk
+-include $(DLKM_DIR)/AndroidKernelModule.mk

@@ -14,6 +14,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(KERNEL_MODULES_OUT)
 KBUILD_OPTIONS_GKI += GKI_OBJ_MODULE_DIR=gki
 
-include $(DLKM_DIR)/AndroidKernelModule.mk
+-include $(DLKM_DIR)/AndroidKernelModule.mk
 
 $(info DLKM_DIR = $(DLKM_DIR))
